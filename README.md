@@ -23,10 +23,10 @@ Upon the completion of the product download, a listing of products should be dis
 
 1. Product Name
 2. Product Type
-3. Whether the game has bulk
-4. Whether the game has retail
+3. Whether the product has bulk
+4. Whether the product has retail
 
-When a user clicks on an item in the listing, the application should display a view which shows the details of the game. The game detail view should include all the data from the item in the listing and the following additions:
+When a user clicks on an item in the listing, the application should display a view which shows the details of the product. The product detail view should include all the data from the item in the listing and the following additions:
 
 1. Description
 2. Batch Number

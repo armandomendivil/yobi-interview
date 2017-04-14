@@ -7,7 +7,7 @@ import configureStore from './store';
 import createBrowserHistory from 'history/createBrowserHistory';
 
 import Home from './components/Home';
-import Test from './components/Test';
+import Products from './containers/Products';
 
 import {
     BrowserRouter as Router,
@@ -28,7 +28,7 @@ class App extends Component {
         <Router history={history}>
             <div>
                 <Route exact path="/" component={Home} />
-                <Route path="/test" component={Test} />
+                <Route exact path="/" component={Products} />
             </div>
         </Router>
       </Provider>

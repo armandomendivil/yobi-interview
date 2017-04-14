@@ -11,7 +11,9 @@ We've provided redux, react-router, and redux-saga to the project. You'll use th
 
 The `API_URL` found in `config/default.js` is the API url you'll need to request products.
 
-We're looking for use of each of the three packages listed above.
+The GET route to request products is: `/products`;
+
+We're looking for use of each of the three packages listed above. You're free to use any HTTP library to call the API.
 
 ## Questions
 
@@ -37,4 +39,4 @@ We've provided a basic structure to get you started. However, feel free to chang
 1. Implement state and component testing using Jest
 2. Implement product search functionality
 
-Good luck!
+Good luck! If you need any assistance please reach out to taylor@getyobi.com

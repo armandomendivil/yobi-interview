@@ -8,19 +8,19 @@ import {
 import reducers from './reducers/';
 
 export default function configureStore(initialState, mainSaga) {
-    const sagaMiddleware = createSagaMiddleware();
+  const sagaMiddleware = createSagaMiddleware();
 
-    const middleware = applyMiddleware(
-        sagaMiddleware,
-    );
+  const middleware = applyMiddleware(
+    sagaMiddleware,
+  );
 
-    const store = createStore(
-        reducers,
-        initialState,
-        middleware,
-    );
+  const store = createStore(
+    reducers,
+    initialState,
+    middleware,
+  );
 
-    sagaMiddleware.run(mainSaga);
+  sagaMiddleware.run(mainSaga);
 
-    return { store };
+  return { store };
 }

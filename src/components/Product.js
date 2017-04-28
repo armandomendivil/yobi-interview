@@ -59,14 +59,14 @@ function Product({
         name="hasBulk"
         floatingLabelText="Has Bulk"
         type="string"
-        value={hasBulk ? 'true': 'false'}
+        value={hasBulk ? 'YES': 'NO'}
         disabled
       />
       <TextField
         name="hasRetail"
         floatingLabelText="Has Retail"
         type="string"
-        value={hasRetail ? 'true': 'false'}
+        value={hasRetail ? 'YES': 'NO'}
         disabled
       />
     </Paper>
